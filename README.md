@@ -92,7 +92,7 @@ Techniques used: CTEs, window functions (`RANK`, `LAG`, running totals with `ROW
 `PARTITION BY`), conditional aggregation with `FILTER` to pivot data, `DATE_TRUNC`, and views.
 
 ### 3. Dashboard (Power BI)
-[`dashboard/halifax_transit_dashboard.pbix`](dashboard/)
+[`Halifax_Transit_Ridership_2026.pbix`](Halifax_Transit_Ridership_2026.pbix)
 
 - Imports three SQL views, each with a clear grain (per day, per route per day, per day type per
   half-hour).
@@ -108,6 +108,7 @@ halifax-transit-analysis/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+├── Halifax_Transit_Ridership_2026.pbix   # Power BI dashboard
 ├── data/                          # not committed (see "Data" below)
 │   ├── apc_ridership.csv          # raw download
 │   └── apc_clean.csv              # output of the notebook
@@ -118,8 +119,6 @@ halifax-transit-analysis/
 │   ├── 02_data_checks.sql
 │   ├── 03_analysis.sql
 │   └── 04_views.sql
-├── dashboard/
-│   └── halifax_transit_dashboard.pbix
 └── images/
     └── dashboard.png
 ```
