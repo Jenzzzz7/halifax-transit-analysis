@@ -1,0 +1,19 @@
+# Data files are large and can be re-downloaded (see README)
+data/*.csv
+data/*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Power BI temporary / backup files
+*.pbix.bak
+~$*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
